@@ -32,8 +32,17 @@ header {
     width: 50%;
 }
 
-#links {
+#links a {
     text-decoration: none;
     color: #ececec;
     font-size: 1.2rem;
+    border-bottom: 3px solid transparent;
+    border-radius: 6px;
+    transition: 0.3s ease-in-out;
+}
+
+#links a:hover {
+    border-bottom: 3px solid #ececec;
+    color: #8e8080;
+    transform: scale(1.01);
 }
